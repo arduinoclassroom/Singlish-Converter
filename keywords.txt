@@ -1,0 +1,21 @@
+#######################################
+# Singlish
+#######################################
+
+Singlish	KEYWORD1
+SinglishPrint	KEYWORD1
+SinglishOptions	KEYWORD1
+SinglishStyle	KEYWORD1
+
+convert	KEYWORD2
+containsSinhala	KEYWORD2
+setDefaultOptions	KEYWORD2
+defaultOptions	KEYWORD2
+setOptions	KEYWORD2
+setOutput	KEYWORD2
+setAutoFlush	KEYWORD2
+reset	KEYWORD2
+
+Casual	LITERAL1
+Phonetic	LITERAL1
+SINGLISH_VERSION	LITERAL1

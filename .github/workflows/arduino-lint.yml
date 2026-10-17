@@ -1,0 +1,17 @@
+# Checks the library against the Arduino Library Manager rules on every push.
+name: Arduino Lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: arduino/arduino-lint-action@v3
+        with:
+          # "submit" until Singlish Converter is in Library Manager; then change to "update".
+          library-manager: submit
+          compliance: specification   # the library name has a space: allowed, but strict flags it
